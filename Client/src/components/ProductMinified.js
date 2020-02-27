@@ -11,7 +11,6 @@ from 'reactstrap';
 class ProductMinified extends Component {
     constructor(props) {
         super(props);
-
         this.state = {
     
         };
@@ -37,7 +36,7 @@ class ProductMinified extends Component {
                 <div className='descWrapper'>
                     <div class='headerWrapper'>
                         <h3 className='title'>{this.props.name}</h3>
-                        <h3 className='price'>&euro;{this.props.cost}</h3>
+                        <h3 className='price'>{this.props.price}&euro;</h3>
                     </div>
                     <p>{this.props.desc}</p>
                     <div class='buttonsWrapper02'>
