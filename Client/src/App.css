@@ -1,0 +1,84 @@
+:root {
+    --green: #8bc34a;
+    --green-darker: #178b48;
+    --blue: rgb(9, 231, 220);
+    --blue-darker: #0084ff;
+    --purple: rgb(249, 84, 138);
+    --purple-darker: #AB51EA;
+    --red: #f44336;
+    --red-darker: #d50000;
+    --grey: rgb(241, 241, 241);
+    --grey-darker: rgb(155, 155, 155);
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+  
+  body {
+    background-color: #FAFBFC;
+    font-family: 'Open Sans'
+  }
+  
+  .boxShadow {
+    box-shadow: 10px 10px 40px -15px rgba(0, 0, 0, 0.33);
+  }
+  
+  .buyButton {
+    background-image: linear-gradient(-90deg, var(--blue), var(--blue-darker));
+    transition: 0.3s;
+  }
+  
+  .buyButton:hover {
+    box-shadow: 0px 0px 10px 0px rgba(9, 231, 220, 0.75);
+    transition: 0.3s;
+  }
+  
+  .cartButton {
+    background-image: linear-gradient(-90deg, var(--purple), var(--purple-darker));
+  }
+  
+  .cartButton:hover {
+    box-shadow: 0px 0px 10px 0px rgba(249, 84, 138, 0.75);
+    transition: 0.3s;
+  }
+  
+  .footWrapper {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: black;
+  }
+  
+  .footText {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 6px 0px;
+    margin: 0;
+    color: #FFF;
+  }
+  
+  .alert-info{
+    color: #ffffff;
+    background-color: #f50057;
+    border-color: #f50057
+  }

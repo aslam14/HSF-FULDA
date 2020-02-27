@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "mysql",
+            "dialect": "MySQL",
+            "name": "AwsBwmaDb",
+            "password": "AwsBwmaDb123",
+            "port": 3306,
+            "server": "awsbwmadb.cwgzgqbdpoif.us-east-1.rds.amazonaws.com",
+            "username": "AwsBwmaDb"
+        },
+        {
+            "database": "H7j0c1CcvW",
+            "dialect": "MySQL",
+            "isActive": false,
+            "isConnected": false,
+            "name": "remoteSQL",
+            "password": "aRxJAPoEX0",
+            "port": 3306,
+            "server": "remotemysql.com",
+            "username": "H7j0c1CcvW"
+        }
+    ]
+}

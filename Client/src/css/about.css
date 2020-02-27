@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.banner {
+    padding-top: 5em;
+}
+
+.banner h1 {
+    font-family: 'Anton';
+    font-size: 50px;
+    color: black;
+}
+
+.btn {
+    margin-top: 1em;
+}

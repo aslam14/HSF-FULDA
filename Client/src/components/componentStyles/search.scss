@@ -1,0 +1,37 @@
+.searchContainer {
+    margin-top: 32px;
+}
+
+.affix {
+    padding: 24px;
+    position: fixed;
+    border-radius: 8px;
+    width: inherit;
+    background: #FFF;
+    width: 18% !important;
+}
+
+.categoryList {
+    list-style: none;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.categoryItem {
+    width: 100%;
+    padding: 5px 24px 5px 24px;
+    margin-left: -24px;
+    box-sizing: content-box;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.categoryItem:hover {
+    background: var(--grey);
+    transition: 0.25s;
+}
+
+.selected {
+    font-weight: bolder;
+}

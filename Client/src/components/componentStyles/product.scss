@@ -1,0 +1,162 @@
+.productContainer {
+    margin-top: 32px;
+}
+
+.descriptionWrapper {
+    padding: 24px 0;
+    text-align: justify;
+}
+
+.productDescriptionWrapper {
+    background: #fff;
+    padding: 16px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.descriptionRow {
+    width: 100%;
+}
+
+.imgWrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.imgWrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.buyButton {
+    background-image: linear-gradient(-90deg, var(--blue), var(--blue-darker));
+    transition: 0.3s;
+}
+
+.buyButton:hover {
+    box-shadow: 0px 0px 10px 0px rgba(9, 231, 220, 0.75);
+    transition: 0.3s;
+}
+
+.cartButton {
+    background-image: linear-gradient(-90deg, var(--purple), var(--purple-darker));
+}
+
+.cartButton:hover {
+    box-shadow: 0px 0px 10px 0px rgba(249, 84, 138, 0.75);
+    transition: 0.3s;
+}
+
+.buttonsWrapper .buttonWrapper:last-child Button {
+    float: right;
+}
+
+.buttonWrapper Button {
+    border-width: 0;
+    border-radius: 4px;
+    width: calc(100% - 8px);
+}
+
+.noGutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    &>[class^="col-"],
+    &>[class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.titleText {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.priceText {
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.shareIcons {
+    display: block;
+    text-align: right;
+}
+
+.shareIcons i {
+    padding-left: 8px;
+    font-size: 1.25em;
+}
+
+.sellerWrapper {
+    background: #fff;
+    top: 16px;
+    padding: 16px !important;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.productSeller {
+    font-weight: bolder;
+}
+
+.productSold {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.feedbackWrapper {
+    background: #fff;
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+.feedbackForm {
+    width: 100%;
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.inputHalf {
+    width: 50%;
+}
+
+.submitButton {
+    border-radius: 4px;
+    width: 50%;
+}
+
+.topDistance {
+    margin-top: 24px;
+}
+
+.noPadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.priceText {
+    color: var(--green)
+}
+
+.shareIcons a {
+    color: rgb(119, 119, 119);
+    transition: 0.3s;
+}
+
+.shareIcons a:hover {
+    color: rgb(22, 22, 22);
+    transition: 0.3s;
+}
+
+small {
+    color: rgb(119, 119, 119);
+}
